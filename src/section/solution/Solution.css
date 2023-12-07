@@ -1,0 +1,101 @@
+#solution {
+    padding: 120px 0;
+  }
+  #solution .solution_heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    -moz-column-gap: 150px;
+         column-gap: 150px;
+    margin-bottom: 80px;
+  }
+  #solution .solution_heading h3 {
+    width: 564px;
+    font-size: 56px;
+    font-weight: 600;
+    font-family: "Open Sans", sans-serif;
+    color: #29313D;
+    line-height: 140%;
+    text-transform: capitalize;
+  }
+  #solution .solution_heading p {
+    width: 696px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Nunito", sans-serif;
+    color: #29313D;
+    text-transform: capitalize;
+    line-height: 150%;
+  }
+  #solution .solution_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  #solution .solution_wrapper .solution_item {
+    width: 450px;
+    border-radius: 30px;
+    padding: 24px 38px 48px 24px;
+    transition: all linear 0.3s;
+  }
+  #solution .solution_wrapper .solution_item:hover {
+    background: #8454F5;
+  }
+  #solution .solution_wrapper .solution_item:hover .solution_item_head h4 {
+    color: white;
+  }
+  #solution .solution_wrapper .solution_item:hover p {
+    color: white;
+  }
+  #solution .solution_wrapper .solution_item:hover a {
+    color: white;
+  }
+  #solution .solution_wrapper .solution_item a {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Nunito", sans-serif;
+    color: #29313D;
+    padding-top: 24px;
+    text-transform: capitalize;
+  }
+  #solution .solution_wrapper .solution_item .solution_item_head {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    -moz-column-gap: 14px;
+         column-gap: 14px;
+    flex-wrap: wrap;
+  }
+  #solution .solution_wrapper .solution_item .solution_item_head .solution_icon_box {
+    width: 70px;
+    height: 70px;
+    border-radius: 14px;
+  }
+  #solution .solution_wrapper .solution_item .solution_item_head .solution_icon_box img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  #solution .solution_wrapper .solution_item .solution_item_head h4 {
+    width: 229px;
+    font-size: 28px;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+    color: #29313D;
+    text-transform: capitalize;
+    line-height: 140%;
+  }
+  #solution .solution_wrapper .solution_item p {
+    width: 392px;
+    padding-top: 16px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Nunito", sans-serif;
+    color: #29313D;
+    text-transform: capitalize;
+    line-height: 150%;
+  }
+  

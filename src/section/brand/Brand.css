@@ -1,0 +1,19 @@
+#brand {
+    padding: 80px 0;
+  }
+  #brand .brand_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    -moz-column-gap: 30px;
+         column-gap: 30px;
+    flex-wrap: wrap;
+  }
+  #brand .brand_wrapper .brand_item {
+    width: 210px;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  

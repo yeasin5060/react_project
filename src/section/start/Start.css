@@ -1,0 +1,73 @@
+#start {
+    padding: 140px 0;
+  }
+  #start .start_heading {
+    width: 820px;
+    margin: 0 auto;
+  }
+  #start .start_heading h3 {
+    font-size: 56px;
+    font-weight: 600;
+    font-family: "Open Sans", sans-serif;
+    color: #29313D;
+    line-height: 140%;
+    text-transform: capitalize;
+  }
+  #start .start_heading .start_offer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -moz-column-gap: 76px;
+         column-gap: 76px;
+  }
+  #start .start_heading .start_offer span {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Nunito", sans-serif;
+    line-height: 140%;
+    color: #29313D;
+    margin-top: 28px;
+    text-transform: capitalize;
+    position: relative;
+  }
+  #start .start_heading .start_offer span::after {
+    position: absolute;
+    content: "";
+    right: -30px;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0.2;
+    background: #29313D;
+    width: 2px;
+    height: 20px;
+  }
+  #start .start_heading .start_offer span:last-child::after {
+    content: unset;
+  }
+  #start .start_form button {
+    padding: 20px 48px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #29313D;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 10px;
+    text-transform: capitalize;
+    transition: all linear 0.3s;
+    border: 1px solid #29313D;
+    margin-left: 30px;
+  }
+  #start .start_form button:hover {
+    background: #8454F5;
+    color: white;
+  }
+  #start .start_form input {
+    width: 450px;
+    border: none;
+    outline: none;
+    padding: 37px 28px;
+    background: rgba(132, 84, 245, 0.05);
+    border-radius: 24px;
+    margin-top: 40px;
+  }
+  
